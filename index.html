@@ -73,13 +73,13 @@
         <p align="center">
           <name>Joon Kim</name>
         </p>
-        <p>I am a PhD student in <a href="http://ml.cmu.edu/">Machine Learning Department</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by Professor <a href="https://www.cs.cmu.edu/~atalwalk/">Ameet Talwalkar</a>. I am also supported by <a href="http://en.ikef.or.kr/">Kwanjeong Eduational Foundation Graduate Research Fellowship</a>, based in South Korea.
+        <p>I am a PhD student in <a href="http://ml.cmu.edu/">Machine Learning Department</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, advised by Professor <a href="https://www.cs.cmu.edu/~atalwalk/">Ameet Talwalkar</a>. I am also supported by a Graduate Research Fellowship from <a href="http://en.ikef.or.kr/">Kwanjeong Educational Foundation</a> based in South Korea.
         </p>
         <p>
           Prior to joining CMU, I received a Bachelors of Science degree in Computer Science at <a href="http://www.caltech.edu">Caltech</a>.
         </p>
         <p align=center>
-          <a href="mailto:joonsikk@cs.cmu.edu">Email</a> &nbsp/&nbsp
+          <a href="mailto:joonkim@cmu.edu">Email</a> &nbsp/&nbsp
           <a href="docs/CV.pdf">CV</a> &nbsp/&nbsp
           <a href="https://scholar.google.com/citations?user=H5EeUmgAAAAJ&hl=en"> GoogleScholar </a>
         </p>
@@ -95,21 +95,23 @@
       <tr>
         <td width="100%" valign="middle">
           <heading>Research</heading>
-          <p> I am interested in building interpretable machine learning models or methods that can help/facilitate understandings of complex models. </p>
+          <p> I am interested in studying methods that can help and facilitate understandings of complex models, and their implications on fairness and interpretability.</p>
         </td>
       </tr>
       </table>
 
-<!-- NEWS SECTION -->
+<!-- NEWS SECTION
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
       <tr>
         <td width="100%" valign="middle">
           <heading>Updates</heading>
+          <p> - (June 2020) One paper accepted to ICML 2020, one paper accpeted to UAI 2020
           <p> - (Aug 2019) TAing for a new graduate course for Fall 2019: <a href='http://kangeunsu.com/creativeai19f'>10-737 Creative AI</a> </p>
           <p> - (June 2019) Spending the Summer of 2019 at <a href='https://www.jpmorgan.com/global/technology/artificial-intelligence'>J.P.Morgan AI Research</a> </p>
         </td>
       </tr>
       </table>
+-->
 
 <!-- PUBLICATION SECTION -->
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -121,20 +123,6 @@
       </table>
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <!-- Fairness tradeoff -->
-    <tr>
-      <td width="25%">
-        <img src='img/fair-tradeoff.png' width="100%">
-      </td>
-      <td valign="top" width="75%">
-        <p><a href="https://arxiv.org/abs/2004.03424">
-        <papertitle>Model-agnostic Characterization of Fairness Trade-offs</papertitle></a><br>
-        <strong>Joon Sik Kim</strong>, Jiahao Chen, Ameet Talwalkar <br>
-        <em>Preprint</em>, 2020.<br>
-        <p>Proposed a model-agnostic perspective of analyzing different types of trade-offs in ML fairness, which yields additional theoretical results in impossibilities among fairness definitions.</p>
-      </td>
-    </tr>
-
     <!-- TopLayer -->
     <tr>
       <td width="25%">
@@ -143,9 +131,33 @@
       <td valign="top" width="75%">
         <p><a href="https://arxiv.org/abs/2002.02778">
         <papertitle>Efficient Topological Layer based on Persistent Landscape</papertitle></a><br>
-        Kwangho Kim, Jisu Kim, <strong>Joon Sik Kim</strong>, Frederic Chazal, Larry Wasserman<br>
-        <em>Preprint</em>, 2020.<br>
-        <p>Proposed a novel topological layer for deep neural networks based on persistent landscapes, which is able to efficiently capture underlying toplogical feautres of the input data, with stronger stability guarantees.</p>
+        Jisu Kim, Kwangho Kim, Manzil Zaheer, <strong>Joon Sik Kim</strong>, Frederic Chazal, Larry Wasserman<br>
+        <em>Pre-print</em>, 2020.<br>
+        <p>We introduce a novel topological layer for deep neural networks based on persistent landscapes, which is able to efficiently capture underlying toplogical feautres of the input data, with stronger stability guarantees.</p>
+      </td>
+    </tr>
+
+    <!-- Fairness tradeoff -->
+    <tr>
+      <td width="25%">
+        <img src='img/fair-tradeoff2.png' width="100%">
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="https://arxiv.org/abs/2004.03424">
+        <papertitle>FACT: A Diagnostic for Group Fairness Trade-offs</papertitle></a><br>
+        <strong>Joon Sik Kim</strong>, Jiahao Chen, Ameet Talwalkar <br>
+        <em>International Conference on Machine Learning (ICML)</em>, 2020.<br>
+		<a href ="">proceedings (tba)</a>
+        /
+		<a href ="">blog post (tba)</a>
+        /
+		<a href ="https://www.dropbox.com/s/bf6pwng6t1whnjx/icml2020-fairness.key?dl=0">slides</a>
+        /
+		<a href ="">talk (tba)</a>
+        /
+        <a href ="https://github.com/wnstlr/FACT">code</a>
+ 		<p></p>
+        <p>We proposed a general framework of understanding and diagnosing different types of trade-offs in group fairness, deriving new incompatibility conditions and post-processing method for fair classification.</p>
       </td>
     </tr>
 
@@ -156,10 +168,17 @@
       </td>
       <td valign="top" width="75%">
         <p><a href="https://arxiv.org/abs/1912.01108">
-        <papertitle>Diagnostic Curves for Black Box Models</papertitle></a><br>
+        <papertitle>Automated Dependency Plots</papertitle></a><br>
         David Inouye, Leqi Liu, <strong>Joon Sik Kim</strong>, Bryon Aragam, Pradeep Ravikumar <br>
-        <em>Neural Information Processing Systems (NeurIPS) Workshop on Safety and Robustness in Decision Making</em>, 2019.<br>
-        <p> Proposed a framework for finding a univariate diagnostic curve in the input space that maximally violates certain functional properties of a black box model by defining multiple utility measures.</p>
+        <em>Uncertainty in Artificial Intelligence (UAI)</em>, 2020.<br>
+        <em>(Previously on Safety and Robustness in Decision Making Workshop, NeurIPS 2019)</em> <br>
+        <a href ="">proceedings (tba)</a>
+        /
+        <a href ="">poster (tba)</a>
+        /
+        <a href ="https://github.com/davidinouye/adp">code</a>
+        <p></p>
+        <p>We introduce a framework for automating a search for a partial dependence plot which best captures certain types of model behaviors, encoded with customizable utility functions.</p>
       </td>
     </tr>
 
@@ -173,7 +192,7 @@
 		    <papertitle>Representer Point Selection for Explaining Deep Neural Networks</papertitle></a><br>
 		    Chih-kuan Yeh*, <strong>Joon Sik Kim</strong>*, Ian E.H. Yen, Pradeep Ravikumar <br>
 		    <em>Neural Information Processing Systems (NeurIPS)</em>, 2018 <br>
-		    <a href ="https://papers.nips.cc/paper/8141-representer-point-selection-for-explaining-deep-neural-networks.pdf">published ver.</a>
+		    <a href ="https://papers.nips.cc/paper/8141-representer-point-selection-for-explaining-deep-neural-networks.pdf">proceedings</a>
             /
 		    <a href ="https://blog.ml.cmu.edu/2019/04/19/representer-point-selection-explain-dnn/">blog post</a>
             /
@@ -181,7 +200,7 @@
             /
         <a href ="https://github.com/chihkuanyeh/Representer_Point_Selection">code</a>
  		    <p></p>
-		    <p>Proposed a method that decomposes the pre-activation prediction of a neural network into a linear combination of activations of training points, with the weights corresponding to what we call representer values for intuitive interpreation of deep neural network prediction. </p>
+		    <p>We propose a method that decomposes a deep neural network prediction into a linear combination of activation values of training points, in which the weights (called representer values) allow intuitive interpreation of the prediction</p>
 		  </td>
 		</tr>
 
@@ -195,11 +214,11 @@
 		    <papertitle>A Rotation Invariant Latent Factor Model for Moveme Discovery from Static Poses</papertitle></a><br>
 		    Matteo Ruggero Ronchi, <strong>Joon Sik Kim</strong>, Yisong Yue <br>
 		    <em>IEEE International Conference on Data Mining (ICDM)</em>, 2016 <br>
-		    <a href ="docs/ICDM_published.pdf">published ver.</a>
+		    <a href ="https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/12OmNAsBFPE/pdf">proceedings</a>
             /
 		    <a href ="http://www.vision.caltech.edu/~mronchi/projects/RotationInvariantMovemes/">project page</a>
             /
-		    <a href ="docs/ICDM16_final.pdf">ppt</a>
+		    <a href ="docs/ICDM16_final.pdf">slides</a>
             /
 		    <a href ="docs/scmls_poster.pdf">poster</a>
             /
@@ -207,7 +226,7 @@
             /
             <a href="https://github.com/matteorr/rotation_invariant_movemes/tree/master/inputs">dataset</a>
  		    <p></p>
-		    <p> Proposed a method to discover a set of rotation-invariant 3-D basis poses that can characterize the manifold of primitive human motions, or movemes, from a training set of 2-D projected poses obtained from still images taken at various camera angles.</p>
+		    <p> We propose a method to discover a set of rotation-invariant 3-D basis poses that can characterize the manifold of primitive human motions, from a training set of 2-D projected poses obtained from still images taken at various camera angles.</p>
 		  </td>
 		</tr>
   </table>
